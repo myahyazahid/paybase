@@ -7,7 +7,7 @@ import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { injected, walletConnect } from 'wagmi/connectors'
 import WalletGate from '@/components/WalletGate'
 
-const WC_PROJECT_ID = 'ISI_PROJECT_ID_WALLETCONNECT_KAMU'
+const WC_PROJECT_ID = '52732025d7f26eafe99545ebbad20640'
 
 const config = createConfig({
   chains: [base],
